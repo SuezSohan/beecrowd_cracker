@@ -1,3 +1,52 @@
+""" #1060: Positive Numbers
+j = 0
+for x in range(6) :
+    a = float(input())
+    if a>0 :
+        j+=1
+print (j,"valores positivos") """
+
+
+
+""" #1059: Even Numbers
+for x in range(1, 101):
+    if x%2 == 0 :
+        print(x) """
+
+
+
+""" #1052: Month
+a = int(input())
+
+if a==1 :
+    month = "January"
+elif a==2 :
+    month = "February"
+elif a==3 :
+    month = "March"
+elif a==4 :
+    month = "April"
+elif a==5 :
+    month = "May"
+elif a==6 :
+    month = "June"
+elif a==7 :
+    month = "July"
+elif a==8 :
+    month = "August"
+elif a==9 :
+    month = "September"
+elif a==10 :
+    month = "October"
+elif a==11 :
+    month = "November"
+elif a==12 :
+    month = "December"
+
+print(month) """
+
+
+
 """ #1051: Taxes
 a = float(input())
 if a>=0 and a<=2000:
@@ -11,6 +60,7 @@ elif a>=3000.01 and a<=4500:
 elif a>4500:
     tax = (1000*0.08)+(1500*0.18)+(a-4500)*0.28
     print(f"R$ {tax:.2f}") """
+
 
 """ #1050: DDD
 a = int(input())
